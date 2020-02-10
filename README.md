@@ -1,4 +1,5 @@
-# SetUserAccountVisibility-
+# SET USER ACCOUNT VISIBILITY
+
 This script allows allows the user to make the logged in account hidden or visible in Users and Groups.  In addition, the home folder for the account is moved moved to /var/ *.
 
 ### SETTING UP SCRIPT ####
