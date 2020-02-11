@@ -26,7 +26,7 @@ fMakeAccountHidden()	{
 fMakeAccountVisible()	{
 
 	sudo dscl . create /Users/"$USER" IsHidden 0 # unhides the account account in users and groups.
-	sudo dscl . -change /Users/"$USER" NFSHomeDirectory /var/"$USER" /Users/"$USER" /var/"$USER" # sets the NFSHomeDirectory to /Users/
+	sudo dscl . -change /Users/"$USER" NFSHomeDirectory /var/"$USER" /Users/"$USER" # sets the NFSHomeDirectory to /Users/
 	sudo mv /var/"$USER" /Users/"$USER" # moves the account from /var/ back to /Users/
 
 	echo "The account for $USER is now visible, and it's home directory is moved to /Users/$USER"
